@@ -1,0 +1,271 @@
+Name: DEAF KEV - Invincible (Hero's Python MIDI Remake)
+Settings:
+  # Beats Per Minute
+  BPM: 200
+  # The Number of channels per track.
+  # NOTE: Only supports one channel at the moment.
+  Channels: 1
+  Key Signature:
+    Number: 4
+    Type: Flats
+    Mode: Major
+Music:
+  Tracks:
+    - Name: Piano Treble
+      Program: 1 # Acoustic grand piano
+      Volume: 100
+      Notes: # Numbered by beat
+        - Start: 0.0 # Beat number
+          Octave: 5 # -1 to 9
+          Note: A # Accepts C, C#, D, D#, E, F, F#, G, G#, A, A#, and B
+          Duration: 2 # In beats
+          Volume: 100 # Optionally override the tracks volume.
+          # Leave this out to use default track volume.
+        - Start: 2.0
+          Octave: 5
+          Note: F
+          Duration: 1.5
+        - Start: 3.5
+          Octave: 6
+          Note: C
+          Duration: 2.5
+        - Start: 6.0
+          Octave: 6
+          Note: D
+          Duration: 2
+        - Start: 8.0
+          Octave: 6
+          Note: C
+          Duration: 2
+        - Start: 10.0
+          Octave: 5
+          Note: A
+          Duration: 1.5
+        - Start: 11.5
+          Octave: 5
+          Note: G
+          Duration: 2.5
+        - Start: 14.0
+          Octave: 6
+          Note: C
+          Duration: 0.333
+        - Start: 14.333
+          Octave: 5
+          Note: B
+          Duration: 0.333
+        - Start: 14.666
+          Octave: 5
+          Note: A
+          Duration: 0.333
+        - Start: 15.0
+          Octave: 5
+          Note: F
+          Duration: 0.333
+        - Start: 15.333
+          Octave: 5
+          Note: E
+          Duration: 0.333
+        - Start: 15.666
+          Octave: 5
+          Note: C
+          Duration: 0.333
+        - Note: A
+          Octave: 5
+          Start: 16
+          Duration: 2
+        - Note: F
+          Octave: 5
+          Start: 18
+          Duration: 1.5
+        - Note: C
+          Octave: 6
+          Start: 19.5
+          Duration: 2.5
+        - Note: D
+          Octave: 6
+          Start: 22
+          Duration: 2
+        - Note: C
+          Octave: 6
+          Start: 24
+          Duration: 2
+        - Note: A
+          Octave: 5
+          Start: 26
+          Duration: 1.5
+        - Note: G
+          Octave: 5
+          Start: 27.5
+          Duration: 8.5
+    - Name: Piano Bass
+      Program: 1
+      Volume: 100
+      Notes:
+        - Note: F
+          Octave: 4
+          Start: 0
+          Duration: 2
+        - Note: A
+          Octave: 4
+          Start: 0
+          Duration: 2
+        - Note: C
+          Octave: 5
+          Start: 0
+          Duration: 2
+        - Note: D
+          Octave: 5
+          Start: 2
+          Duration: 1.5
+        - Note: D
+          Octave: 4
+          Start: 3.5
+          Duration: 2.5
+        - Note: F
+          Octave: 4
+          Start: 3.5
+          Duration: 2.5
+        - Note: A
+          Octave: 4
+          Start: 3.5
+          Duration: 2.5
+        - Note: D
+          Octave: 4
+          Start: 6
+          Duration: 1
+        - Note: F
+          Octave: 4
+          Start: 6
+          Duration: 1
+        - Note: A
+          Octave: 4
+          Start: 6
+          Duration: 1
+        - Note: A
+          Octave: 4
+          Start: 7
+          Duration: 1
+        - Note: E
+          Octave: 4
+          Start: 8
+          Duration: 2
+        - Note: A
+          Octave: 4
+          Start: 8
+          Duration: 2
+        - Note: C
+          Octave: 5
+          Start: 8
+          Duration: 2
+        - Note: E
+          Octave: 4
+          Start: 10
+          Duration: 1.5
+        - Note: A
+          Octave: 4
+          Start: 10
+          Duration: 1.5
+        - Note: C
+          Octave: 5
+          Start: 10
+          Duration: 1.5
+        - Note: E
+          Octave: 4
+          Start: 11.5
+          Duration: 2.5
+        - Note: G
+          Octave: 4
+          Start: 11.5
+          Duration: 2.5
+        - Note: B
+          Octave: 4
+          Start: 11.5
+          Duration: 2.5
+        - Note: F
+          Octave: 4
+          Start: 16
+          Duration: 2
+        - Note: A
+          Octave: 4
+          Start: 16
+          Duration: 2
+        - Note: C
+          Octave: 5
+          Start: 16
+          Duration: 2
+        - Note: D
+          Octave: 5
+          Start: 18
+          Duration: 1
+        - Note: C
+          Octave: 5
+          Start: 19
+          Duration: 0.5
+        - Note: D
+          Octave: 4
+          Start: 19.5
+          Duration: 2.5
+        - Note: F
+          Octave: 4
+          Start: 19.5
+          Duration: 2.5
+        - Note: A
+          Octave: 4
+          Start: 19.5
+          Duration: 2.5
+        - Note: D
+          Octave: 4
+          Start: 22
+          Duration: 1
+        - Note: F
+          Octave: 4
+          Start: 22
+          Duration: 1
+        - Note: A
+          Octave: 4
+          Start: 22
+          Duration: 1
+        - Note: A
+          Octave: 4
+          Start: 23
+          Duration: 1
+        - Note: E
+          Octave: 4
+          Start: 24
+          Duration: 2
+        - Note: A
+          Octave: 4
+          Start: 24
+          Duration: 2
+        - Note: C
+          Octave: 5
+          Start: 24
+          Duration: 2
+        - Note: E
+          Octave: 4
+          Start: 26
+          Duration: 1
+        - Note: A
+          Octave: 4
+          Start: 26
+          Duration: 1
+        - Note: C
+          Octave: 5
+          Start: 26
+          Duration: 1
+        - Note: B
+          Octave: 4
+          Start: 27
+          Duration: 0.5
+        - Note: E
+          Octave: 4
+          Start: 27.5
+          Duration: 8.5
+        - Note: G
+          Octave: 5
+          Start: 27.5
+          Duration: 8.5
+        - Note: B
+          Octave: 4
+          Start: 27.5
+          Duration: 8.5

@@ -1,0 +1,3 @@
+pygame
+midiutil
+ruamel.yaml
